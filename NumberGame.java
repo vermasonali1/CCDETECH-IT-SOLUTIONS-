@@ -10,6 +10,7 @@ public static void main(String[] args) {
 
     boolean play=true;
     while(play){
+        
         // create instance using random class
         Random r=new Random();
         // Generate number
