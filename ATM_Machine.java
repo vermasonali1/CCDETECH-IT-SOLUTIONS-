@@ -5,10 +5,12 @@ class user_Bank{
     user_Bank(double balance){
         this.total_Balance=balance;
     }
+    
     // create an method to getbalance
     double getBalance(){
         return total_Balance;
     }
+    
     // create an method to withdraw
     public void withdraw(double amt){
         if(total_Balance>amt){
@@ -20,6 +22,7 @@ class user_Bank{
             System.out.println("Transaction failed! insufficient balance");
         }
     }
+    
     // create an method to deposit
     public void deposit(double amt){
         total_Balance=total_Balance+amt;
